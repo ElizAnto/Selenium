@@ -35,6 +35,14 @@ menu.click()
 print("Click Menu Button")
 time.sleep(2)
 
-link_logout = driver.find_element(By.XPATH, "//a[@id='logout_sidebar_link']")
-link_logout.click()
-print("Click Link Logout Button")
+link_about = driver.find_element(By.XPATH, "//a[@id='about_sidebar_link']")
+link_about.click()
+print("Click Link About Button")
+
+"""Перемещение в истории браузера (вперед-назад)"""
+time.sleep(2)
+driver.back()
+print("Go Back")
+time.sleep(2)
+driver.forward()
+print("Go Forward")
