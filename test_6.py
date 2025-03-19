@@ -95,3 +95,13 @@ item_total = "Item total: " + value_finish_price_product_1
 print(item_total)
 assert value_summary_price == item_total
 print("Total summary price GOOD")
+
+button_finish = driver.find_element(By.XPATH, "//button[@id='finish']")
+button_finish.click()
+print("Click Finish")
+
+finish = driver.find_element(By.XPATH, "//h2[@class='complete-header']")
+value_finish = finish.text
+print(value_finish)
+assert value_finish == "Thank you for your order!"
+print("Finish text GOOD")
