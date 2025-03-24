@@ -7,9 +7,7 @@ from selenium.webdriver.common.by import By
 
 """Choose product"""
 print("Приветствую тебя в нашем интернет - магазине")
-print("Выбери один из следующих товаров и укажи его номер:\n1 - Sauce Labs Backpack\n,"
-      "2 - Sauce Labs Bike Light\n3 - Sauce Labs Bolt T-Shirt\n,"
-      "4 - Sauce Labs Fleece Jacket\n5 - Sauce Labs Onesie\n6 - Test.allTheThings() T-Shirt (Red)")
+print("Выбери один из следующих товаров и укажи его номер:\n1 - Sauce Labs Backpack\n2 - Sauce Labs Bike Light\n3 - Sauce Labs Bolt T-Shirt\n4 - Sauce Labs Fleece Jacket\n5 - Sauce Labs Onesie\n6 - Test.allTheThings() T-Shirt (Red)")
 
 number = input()
 print("Выбран продукт номер " + number)
