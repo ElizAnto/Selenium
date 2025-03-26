@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
-# options.add_argument("--headless") # Не открывать браузер
 driver = webdriver.Chrome(options=options, service=Service())
 base_url = 'https://www.saucedemo.com/'
 driver.get(base_url)
