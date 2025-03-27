@@ -8,6 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 usernames = ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
 password = 'secret_sauce'
 
+"""Test login of all users"""
+
 class Test():
 
     """Ввод логина и пароля"""
