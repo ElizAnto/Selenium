@@ -1,5 +1,0 @@
-base
-pages
-screen
-tests
-utilities
